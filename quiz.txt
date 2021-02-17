@@ -1,0 +1,61 @@
+Quiz Java
+Jak utworzyć pętlę for each dla listy int-ów: "lista"?
+for (i in lista)
+for (int i = 0; i < lista.size(), i++)
+for (int i : lista)
+for int i in lista.iter()
+c
+Jak można utworzyć zmienną int: "var"?
+var var = 1;
+int var;
+let var = 3;
+var = 0
+ab
+Jak wyświetlić napis "Witaj świecie"?
+std::cout << "Witaj świecie";
+System.out.println("Witaj świecie");
+print("Witaj świecie");
+echo Witaj świecie
+b
+Jak wygląda poprawnie dodany komentarz?
+// komentarz;
+/* komentarz */
+# komentarz
+// to jest komentarz
+abd
+W jaki sposób można utworzyć instrukcję warunkową if, mająca się wykonać, jeśli "proceed" jest prawdziwe?
+if proceed { // instrukcje }
+if (proceed) { // instrukcje }
+if (!(!proceed)) { // instrukcje }
+if proceed == true { // instrukcje }
+bc
+Język java jest:
+obiektowy
+skryptowy
+kompilowalny
+nisko poziomowy
+ac
+Które z podanych kolekcji mogą posiadać duplikaty wartości?
+Set
+List
+Map
+ArrayList
+bcd
+Jaki jest rozmiar zmiennej typu int?
+32 B
+4 B
+16 b
+64 b
+b
+W jaki sposób prawidłowo zadeklarować tablicę int-ów "tab"?
+int tab = [1,2,3];
+int tab[] = {1, 2, 3};
+int []tab = (1, 2, 3);
+int tab = Array(1, 2, 3);
+b
+jak prawidłowo zadeklarować zmienną typu logicznego "test"?
+bool test = true;
+boolean test = True;
+bool test = True;
+boolean test = true;
+d

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="400.0" maxWidth="600.0" minHeight="400.0" minWidth="600.0" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controllers.QuestionController">
+   <children>
+      <CheckBox fx:id="ans_a_checkBox" layoutX="100.0" layoutY="124.0" mnemonicParsing="false" text="A" visible="false" />
+      <CheckBox fx:id="ans_b_checkBox" layoutX="100.0" layoutY="172.0" mnemonicParsing="false" text="B" visible="false" />
+      <CheckBox fx:id="ans_c_checkBox" layoutX="100.0" layoutY="215.0" mnemonicParsing="false" text="C" visible="false" />
+      <CheckBox fx:id="ans_d_checkBox" layoutX="100.0" layoutY="254.0" mnemonicParsing="false" text="D" visible="false" />
+      <Button fx:id="button_next" layoutX="531.0" layoutY="354.0" mnemonicParsing="false" onMouseClicked="#next_clicked" text="Next" />
+      <Button fx:id="button_prev" layoutX="23.0" layoutY="354.0" mnemonicParsing="false" onMouseClicked="#prev_clicked" text="Previous" visible="false" />
+      <Label fx:id="question" layoutX="8.0" layoutY="46.0" prefHeight="31.0" prefWidth="589.0" text="Click Next to begin quiz" />
+      <Label fx:id="answer_a" layoutX="142.0" layoutY="117.0" prefHeight="31.0" prefWidth="364.0" text="ans_a" visible="false" />
+      <Label fx:id="answer_b" layoutX="142.0" layoutY="165.0" prefHeight="31.0" prefWidth="364.0" text="ans_a" visible="false" />
+      <Label fx:id="answer_c" layoutX="142.0" layoutY="208.0" prefHeight="31.0" prefWidth="364.0" text="ans_a" visible="false" />
+      <Label fx:id="answer_d" layoutX="142.0" layoutY="247.0" prefHeight="31.0" prefWidth="364.0" text="ans_a" visible="false" />
+      <Label layoutX="25.0" layoutY="29.0" text="Nr" />
+      <Label fx:id="current_index" layoutX="43.0" layoutY="29.0" prefHeight="17.0" prefWidth="21.0" />
+      <Label layoutX="70.0" layoutY="29.0" text="/" />
+      <Label fx:id="max_index" layoutX="84.0" layoutY="29.0" prefHeight="17.0" prefWidth="21.0" />
+      <Button fx:id="button_submit" layoutX="426.0" layoutY="354.0" mnemonicParsing="false" onMouseClicked="#submit_clicked" prefHeight="25.0" prefWidth="79.0" text="Submit" visible="false" />
+   </children>
+</Pane>
